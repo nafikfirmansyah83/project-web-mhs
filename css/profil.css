@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: white;
+}
+
+.accordion
+{
+    margin: 60px auto;
+    width: 600px;
+}
+
+.accordion li
+{
+    list-style: none;
+    width: 100%;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+                -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+}
+
+.accordion li label
+{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+label::before
+{
+    content: '+';
+    margin-right: 10px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+input[type="radio"]
+{
+    display: none;
+}
+
+.accordion .content
+{
+    color: #555;
+    padding: 0 10px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+}
+
+.accordion input[type="radio"]:checked + label + .content
+{
+    max-height: 400px;
+    padding: 10px 10px 20px;
+
+}
+
+.wrapper
+{
+  display: flex;
+  justify-content: center;
+}
+.wrapper .statis
+{
+  color: black;
+  font-size: 60px;
+  font-weight: 400;
+}
+.wrapper .bergerak
+{
+  margin-left: 15px;
+  height: 90px;
+  line-height: 90px;
+  overflow: hidden;
+}
+.bergerak li
+{
+  list-style: none;
+  color: #FC6D6D;
+  font-size: 60px;
+  font-weight: 500;
+  position: relative;
+  top: 0;
+  animation: slide 12s steps(1);
+}
+@keyframes slide 
+{
+  100%
+  {
+    top: -360px;
+  }
+}
+.bergerak li span
+{
+  position: relative;
+  margin: 5px 0;
+  line-height: 80px;
+}
+.bergerak li span::after
+{
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: white;
+  border-left: 2px solid #FC6D6D;
+  animation: typing 3s steps(10);
+  animation-iteration-count: 100;
+}
+@keyframes typing 
+{
+  40%, 60%
+  {
+    left: calc(100% + 20px);
+  }
+  100%
+  {
+    left: 0;
+  }
+}
