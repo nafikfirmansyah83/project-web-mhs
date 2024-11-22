@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/admin.css">
+    <link rel="stylesheet" href="fontawesome-free/css/all.min.css">
+
+    <title>Daftar Mahasiswa</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary fixed-top">
+      <a class="navbar-brand" href="profil.html">PROGRAM STUDI ILMU KOMPUTER | <strong>UNIVERSITAS PGRI WIRANEGARA</strong></a>
+        <form class="form-inline my-2 my-lg-0 ml-auto">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+        </form>
+        <div class="icon ml-4">
+          <h5>
+            <i class="fa-solid fa-envelope mr-3 text-dark" data-toggle="tooltip" title="Surat Masuk"></i>
+            <i class="fa-solid fa-bell mr-3 text-dark" data-toggle="tooltip" title="Notifikasi"></i>
+            <a href="logout.php"><i class="fa-solid fa-right-from-bracket mr-3 text-dark" data-toggle="tooltip" title="Sign Out"></i></a></i>
+          </h5>
+        </div>
+      </div>
+    </nav>
+    <div class="row no-gutters mt-5">
+      <div class="col-md-2 bg-dark mt-2 pr-3 pt-4">
+        <ul class="nav flex-column ml-3 mb-5">
+          <li class="nav-item">
+            <a class="nav-link active text-white" href="dashboard.html"><i class="fa-solid fa-gauge mr-2"></i> Dashboard</a><hr class="bg-secondary">
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="mahasiswa.html"><i class="fa-solid fa-graduation-cap mr-2"></i> Data Mahasiswa</a><hr class="bg-secondary">
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="dosen.html"><i class="fa-solid fa-chalkboard-user mr-2"></i> Daftar Dosen</a><hr class="bg-secondary">
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="jadwal.html"><i class="fa-solid fa-calendar-days mr-2"></i> Jadwal Kuliah</a><hr class="bg-secondary">
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="nilai.html"><i class="fa-solid fa-paper-plane mr-2"></i> Nilai Mahasiswa</a>
+          </li>
+        </ul>
+        </div>
+        <div class="col-md-10 p-5 pt-2 ">
+          <h3><i class="fa-solid fa-graduation-cap mr-2"></i>DAFTAR MAHASISWA</a></h3><hr>
+
+          <a href="" class="btn btn-warning mb-3"><i class="fa-solid fa-square-plus mr-2"></i> Tambah Data Mahasiswa</a>
+          <table class="table table-striped table-bordered">
+            <thead>
+              <tr>
+                <th scope="col">No</th>
+                <th scope="col">Nama Mahasiswa</th>
+                <th scope="col">NIM</th>
+                <th scope="col">Tempat Tanggal Lahir</th>
+                <th scope="col">Alamat</th>
+                <th colspan="3" scope="col">Aksi</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>John Smith</td>
+                <td>123456</td>
+                <td>Jakarta, 15-07-1992</td>
+                <td>Jl. Merdeka No. 123, Jakarta</td>
+                <td><a href="" class="btn btn-primary">Detail</a></td>
+                <td><i class="fa-solid fa-pen-to-square bg-success p-2 text-white rounded" data-toggle="tooltip" title="Edit"></i></td>
+                <td><i class="fa-solid fa-delete-left bg-danger p-2 text-white rounded" data-toggle="tooltip" title="Delete"></i></td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Sarah Davis</td>
+                <td>789012</td>
+                <td>Surabaya, 05-12-1995</td>
+                <td>Jl. Merak No. 456, Surabaya</td>
+                <td><a href="" class="btn btn-primary">Detail</a></td>
+                <td><i class="fa-solid fa-pen-to-square bg-success p-2 text-white rounded" data-toggle="tooltip" title="Edit"></i></td>
+                <td><i class="fa-solid fa-delete-left bg-danger p-2 text-white rounded" data-toggle="tooltip" title="Delete"></i></td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Michael Wilson</td>
+                <td>234567</td>
+                <td>Bandung, 21-09-1998</td>
+                <td>Jl. Anggrek No. 789, Bandung</td>
+                <td><a href="" class="btn btn-primary">Detail</a></td>
+                <td><i class="fa-solid fa-pen-to-square bg-success p-2 text-white rounded" data-toggle="tooltip" title="Edit"></i></td>
+                <td><i class="fa-solid fa-delete-left bg-danger p-2 text-white rounded" data-toggle="tooltip" title="Delete"></i></td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>Emily Taylor</td>
+                <td>345678</td>
+                <td>Medan, 11-03-1987</td>
+                <td>Jl. Mawar No. 987, Medan</td>
+                <td><a href="" class="btn btn-primary">Detail</a></td>
+                <td><i class="fa-solid fa-pen-to-square bg-success p-2 text-white rounded" data-toggle="tooltip" title="Edit"></i></td>
+                <td><i class="fa-solid fa-delete-left bg-danger p-2 text-white rounded" data-toggle="tooltip" title="Delete"></i></td>
+              </tr>
+              <tr>
+                <th scope="row">5</th>
+                <td>Jane Johnson</td>
+                <td>567890</td>
+                <td>Jakarta, 28-06-1990</td>
+                <td>Jl. Flamboyan No. 321, Jakarta</td>
+                <td><a href="" class="btn btn-primary">Detail</a></td>
+                <td><i class="fa-solid fa-pen-to-square bg-success p-2 text-white rounded" data-toggle="tooltip" title="Edit"></i></td>
+                <td><i class="fa-solid fa-delete-left bg-danger p-2 text-white rounded" data-toggle="tooltip" title="Delete"></i></td>
+              </tr>
+              <tr>
+                <th scope="row">6</th>
+                <td>David Brown</td>
+                <td>456789</td>
+                <td>Semarang, 02-11-1993</td>
+                <td>Jl. Kenanga No. 654, Semarang</td>
+                <td><a href="" class="btn btn-primary">Detail</a></td>
+                <td><i class="fa-solid fa-pen-to-square bg-success p-2 text-white rounded" data-toggle="tooltip" title="Edit"></i></td>
+                <td><i class="fa-solid fa-delete-left bg-danger p-2 text-white rounded" data-toggle="tooltip" title="Delete"></i></td>
+              </tr>
+              <tr>
+                <th scope="row">7</th>
+                <td>John Taylor</td>
+                <td>901234</td>
+                <td>Surabaya, 17-08-1985</td>
+                <td>Jl. Cempaka No. 876, Surabaya</td>
+                <td><a href="" class="btn btn-primary">Detail</a></td>
+                <td><i class="fa-solid fa-pen-to-square bg-success p-2 text-white rounded" data-toggle="tooltip" title="Edit"></i></td>
+                <td><i class="fa-solid fa-delete-left bg-danger p-2 text-white rounded" data-toggle="tooltip" title="Delete"></i></td>
+              </tr>
+              <tr>
+                <th scope="row">8</th>
+                <td>Sarah Johnson</td>
+                <td>678901</td>
+                <td>Bandung, 24-04-1996</td>
+                <td>Jl. Tulip No. 543, Bandung</td>
+                <td><a href="" class="btn btn-primary">Detail</a></td>
+                <td><i class="fa-solid fa-pen-to-square bg-success p-2 text-white rounded" data-toggle="tooltip" title="Edit"></i></td>
+                <td><i class="fa-solid fa-delete-left bg-danger p-2 text-white rounded" data-toggle="tooltip" title="Delete"></i></td>
+              </tr>
+              <tr>
+                <th scope="row">9</th>
+                <td>Michael Smith</td>
+                <td>012345</td>
+                <td>Jakarta, 09-02-1991</td>
+                <td>Jl. Melati No. 210, Jakarta</td>
+                <td><a href="" class="btn btn-primary">Detail</a></td>
+                <td><i class="fa-solid fa-pen-to-square bg-success p-2 text-white rounded" data-toggle="tooltip" title="Edit"></i></td>
+                <td><i class="fa-solid fa-delete-left bg-danger p-2 text-white rounded" data-toggle="tooltip" title="Delete"></i></td>
+              </tr>
+            </tbody>
+          </table>
+
+        
+        </div>
+      </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/admin.js"></script>
+  </body>
+</html>
