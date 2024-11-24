@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/admin.css">
+    <link rel="stylesheet" href="fontawesome-free/css/all.min.css">
+
+    <title>Jadwal Kuliah</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary fixed-top">
+      <a class="navbar-brand" href="profil.html">PROGRAM STUDI ILMU KOMPUTER | <strong>UNIVERSITAS PGRI WIRANEGARA</strong></a>
+        <form class="form-inline my-2 my-lg-0 ml-auto">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+        </form>
+        <div class="icon ml-4">
+          <h5>
+            <i class="fa-solid fa-envelope mr-3 text-dark" data-toggle="tooltip" title="Surat Masuk"></i>
+            <i class="fa-solid fa-bell mr-3 text-dark" data-toggle="tooltip" title="Notifikasi"></i>
+            <a href="logout.php"><i class="fa-solid fa-right-from-bracket mr-3 text-dark" data-toggle="tooltip" title="Sign Out"></i></a></i>
+          </h5>
+        </div>
+      </div>
+    </nav>
+    <div class="row no-gutters mt-5">
+      <div class="col-md-2 bg-dark mt-2 pr-3 pt-4">
+        <ul class="nav flex-column ml-3 mb-5">
+          <li class="nav-item">
+            <a class="nav-link active text-white" href="dashboard.html"><i class="fa-solid fa-gauge mr-2"></i> Dashboard</a><hr class="bg-secondary">
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="mahasiswa.html"><i class="fa-solid fa-graduation-cap mr-2"></i> Data Mahasiswa</a><hr class="bg-secondary">
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="dosen.html"><i class="fa-solid fa-chalkboard-user mr-2"></i> Daftar Dosen</a><hr class="bg-secondary">
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="jadwal.html"><i class="fa-solid fa-calendar-days mr-2"></i> Jadwal Kuliah</a><hr class="bg-secondary">
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="nilai.html"><i class="fa-solid fa-paper-plane mr-2"></i> Nilai Mahasiswa</a>
+          </li>
+        </ul>
+        </div>
+        <div class="col-md-10 p-5 pt-2 ">
+          <h3><i class="fa-solid fa-calendar-days mr-2"></i>JADWAL KULIAH</a></h3><hr>
+
+          <a href="" class="btn btn-warning mb-3"><i class="fa-solid fa-square-plus mr-2"></i> Tambah Data Jadwal Kuliah</a>
+          <table class="table table-striped table-bordered">
+            <thead>
+              <tr>
+                <th scope="col">No</th>
+                <th scope="col">Nama Mata Kuliah</th>
+                <th scope="col">Kode Mata Kuliah</th>
+                <th scope="col">Dosen Pengampu</th>
+                <th scope="col">SKS</th>
+                <th colspan="3" scope="col">Aksi</th>
+              </tr>
+            </thead>
+            <tbody>
+              <th scope="row">1</th>
+                <td>Algoritma dan Struktur Data</td>
+                <td>ASD-101</td>
+                <td>Prof. Dr. Jessica Johnson</td>
+                <td>3</td>
+                <td><a href="" class="btn btn-primary">Detail</a></td>
+                <td><i class="fa-solid fa-pen-to-square bg-success p-2 text-white rounded" data-toggle="tooltip" title="Edit"></i></td>
+                <td><i class="fa-solid fa-delete-left bg-danger p-2 text-white rounded" data-toggle="tooltip" title="Delete"></i></td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Pemrograman Berorientasi Objek</td>
+                <td>PBO-012</td>
+                <td>Prof. Dr. Emily Taylor</td>
+                <td>2</td>
+                <td><a href="" class="btn btn-primary">Detail</a></td>
+                <td><i class="fa-solid fa-pen-to-square bg-success p-2 text-white rounded" data-toggle="tooltip" title="Edit"></i></td>
+                <td><i class="fa-solid fa-delete-left bg-danger p-2 text-white rounded" data-toggle="tooltip" title="Delete"></i></td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Basis Data</td>
+                <td>BSD-067</td>
+                <td>Dr. David Brown</td>
+                <td>2</td>
+                <td><a href="" class="btn btn-primary">Detail</a></td>
+                <td><i class="fa-solid fa-pen-to-square bg-success p-2 text-white rounded" data-toggle="tooltip" title="Edit"></i></td>
+                <td><i class="fa-solid fa-delete-left bg-danger p-2 text-white rounded" data-toggle="tooltip" title="Delete"></i></td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>Jaringan Komputer</td>
+                <td>JAK-178</td>
+                <td>Dr. Brian Smith</td>
+                <td>3</td>
+                <td><a href="" class="btn btn-primary">Detail</a></td>
+                <td><i class="fa-solid fa-pen-to-square bg-success p-2 text-white rounded" data-toggle="tooltip" title="Edit"></i></td>
+                <td><i class="fa-solid fa-delete-left bg-danger p-2 text-white rounded" data-toggle="tooltip" title="Delete"></i></td>
+              </tr>
+              <tr>
+                <th scope="row">5</th>
+                <td>Sistem Operasi</td>
+                <td>SOP-090</td>
+                <td>Prof. Dr. John Anderson</td>
+                <td>2</td>
+                <td><a href="" class="btn btn-primary">Detail</a></td>
+                <td><i class="fa-solid fa-pen-to-square bg-success p-2 text-white rounded" data-toggle="tooltip" title="Edit"></i></td>
+                <td><i class="fa-solid fa-delete-left bg-danger p-2 text-white rounded" data-toggle="tooltip" title="Delete"></i></td>
+              </tr>
+              <tr>
+                <th scope="row">6</th>
+                <td>Kecerdasan Buatan</td>
+                <td>KBU-120</td>
+                <td>Prof. Dr. Michael Davis</td>
+                <td>3</td>
+                <td><a href="" class="btn btn-primary">Detail</a></td>
+                <td><i class="fa-solid fa-pen-to-square bg-success p-2 text-white rounded" data-toggle="tooltip" title="Edit"></i></td>
+                <td><i class="fa-solid fa-delete-left bg-danger p-2 text-white rounded" data-toggle="tooltip" title="Delete"></i></td>
+              </tr>
+              <tr>
+                <th scope="row">7</th>
+                <td>Pengembangan Web</td>
+                <td>PWE-034</td>
+                <td>Prof. Dr. Jennifer Wilson</td>
+                <td>3</td>
+                <td><a href="" class="btn btn-primary">Detail</a></td>
+                <td><i class="fa-solid fa-pen-to-square bg-success p-2 text-white rounded" data-toggle="tooltip" title="Edit"></i></td>
+                <td><i class="fa-solid fa-delete-left bg-danger p-2 text-white rounded" data-toggle="tooltip" title="Delete"></i></td>
+              </tr>
+              <tr>
+                <th scope="row">8</th>
+                <td>Matematika Diskrit</td>
+                <td>MAT-320</td>
+                <td>Dr. Sarah Thompson</td>
+                <td>2</td>
+                <td><a href="" class="btn btn-primary">Detail</a></td>
+                <td><i class="fa-solid fa-pen-to-square bg-success p-2 text-white rounded" data-toggle="tooltip" title="Edit"></i></td>
+                <td><i class="fa-solid fa-delete-left bg-danger p-2 text-white rounded" data-toggle="tooltip" title="Delete"></i></td>
+              </tr>
+            </tbody>
+          </table>
+
+        
+        </div>
+      </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/admin.js"></script>
+  </body>
+</html>
